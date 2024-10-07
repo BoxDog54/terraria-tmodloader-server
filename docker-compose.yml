@@ -1,5 +1,5 @@
 services:
-  entrypoint: "/tModLoader/Scripts/entrypoint.sh"
+  entrypoint: ./tModLoader/Scripts/entrypoint.sh
   tml:
     container_name: tml
     restart: unless-stopped
