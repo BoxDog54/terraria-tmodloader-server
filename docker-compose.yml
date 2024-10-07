@@ -1,6 +1,5 @@
 services:
   tml:
-    entrypoint: main/tModLoader/Scripts/entrypoint.sh
     container_name: tml
     restart: unless-stopped
     build:
@@ -9,7 +8,7 @@ services:
         UID: 1000
         GID: 1000
         # TML_VERSION: v2023.8.3.3
-    # entrypoint: [ "/bin/bash" ] # Uncomment this line if you need to poke around in the container
+    entrypoint: [ "/bin/bash" ] # Uncomment this line if you need to poke around in the container
     tty: true
     stdin_open: true
     ports:
