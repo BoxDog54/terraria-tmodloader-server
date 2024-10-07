@@ -1,6 +1,6 @@
 services:
   tml:
-    entrypoint: ./tModLoader/Scripts/entrypoint.sh
+    entrypoint: tModLoader/Scripts/entrypoint.sh
     container_name: tml
     restart: unless-stopped
     build:
