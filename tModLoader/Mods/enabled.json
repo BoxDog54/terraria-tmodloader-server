@@ -1,9 +1,19 @@
 [
+  "AlchemistNPCLite",
+  "AutoReroll",
+  "BossChecklist",
   "CalamityMod",
   "CalamityModMusic",
-  "BossChecklist",
+  "CalValEX",
+  "MagicStorage",
+  "miningcracks_take_on_luiafk",
+  "NoMoreTombs",
+  "OmniSwing",
+  "OreExcavator",
   "RecipeBrowser",
-  "BossCursor",
-  "Lights",
-  "ImprovedTorches"
+  "SerousCommonLib",
+  "ShorterRespawn",
+  "SummonWhips",
+  "WingSlotExtra",
+  "LuiAFKUtl"
 ]
